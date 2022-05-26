@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook Clone BT</title>
+    <!-- fonts googleapis -->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <!-- 1.header start -->
+    <!-- header of website -->
+    <div class="header">
+        <!-- header left -->
+        <div class="header_left">
+            <img 
+                src="facebook_icon.png" alt="" 
+            />
+            <div class="header_input">
+                <span class="material-symbols-outlined">search</span>
+                <input type="text" placeholder="Search Facebook" />
+            </div>
+        </div>
+
+        <!-- header middle -->
+        <div class="header_middle">
+            <div class="header_option active">
+                <span class="material-symbols-outlined">home</span>
+            </div>
+            <div class="header_option">
+                <span class="material-symbols-outlined">flag</span>
+            </div>
+            <div class="header_option">
+                <span class="material-symbols-outlined">subscriptions</span>
+            </div>
+            <div class="header_option">
+                <span class="material-symbols-outlined">storefront</span>
+            </div>
+            <div class="header_option">
+                <span class="material-symbols-outlined">supervised_user_circle</span>
+            </div>
+        </div>
+
+        <!-- header right -->
+        <div class="header_right">
+            <div class="header_info">
+                <img 
+                class="user_avatar"
+                src="profile.jpg" alt="" 
+                />
+                <h4>ធឿន ប៊ុនថន</h4>
+            </div>
+            <span class="material-symbols-outlined">add</span>
+            <span class="material-symbols-outlined">forum</span>
+            <span class="material-symbols-outlined">notifications_active</span>
+            <span class="material-symbols-outlined">expand_more</span>
+        </div>
+    </div>
+    <!-- header end -->
+
+    <!-- 2.main body start -->
+    <div class="main_body">
+        <!-- sidbar starts -->
+        <div class="sidebar">
+            <div class="sidebarRow">
+                <img 
+                class="user_avatar"
+                src="profile.jpg" alt="" 
+                />
+                <h4>ធឿន ប៊ុនថន</h4>
+            </div>
+            <div class="sidebarRow">
+                <span class="material-symbols-outlined">local_hospital</span>
+                <h4>Covid 19 Information Center</h4>
+            </div>
+
+            <div class="sidebarRow">
+                <span class="material-symbols-outlined">emoji_flags</span>
+                <h4>Pages</h4>
+            </div>
+
+            <div class="sidebarRow">
+                <span class="material-symbols-outlined">people</span>
+                <h4>People</h4>
+            </div>
+
+            <div class="sidebarRow">
+                <span class="material-symbols-outlined">chat</span>
+                <h4>Messenger</h4>
+            </div>
+
+            <div class="sidebarRow">
+                <span class="material-symbols-outlined">storefront</span>
+                <h4>Marketplace</h4>
+            </div>
+
+            <div class="sidebarRow">
+                <span class="material-symbols-outlined">video_library</span>
+                <h4>Video</h4>
+            </div>
+
+            <div class="sidebarRow">
+                <span class="material-symbols-outlined">expand_more</span>
+                <h4>More</h4>
+            </div>
+        </div>
+        <!-- sidebar end -->
+
+        <!-- feed starts -->
+        <div class="feed">
+            <div class="storyReel">
+                <!-- story starts -->
+                <div style="background-image: url(profile.jpg), url(color_story.jpg);
+                            background-position: top, bottom;
+                            background-repeat: no-repeat, no-repeat;
+                            background-size: 200px 150px, 200px 200px;
+                            /* padding: 10px; */
+                            width: 120px;
+                            height: 200px;
+                        " 
+                    class="header_story">
+                    <img 
+                        class="pic_story"
+                        src="story_Icon.png" alt="" 
+                    />
+                    <h4>បង្កើតរឿង</h4>
+                </div>
+                <!-- story ends -->
+
+                <!-- story starts -->
+                <div style="background-image:url(story_pic.jpg) ;" class="story">
+                    <img 
+                        class="user_avatar story_avatar"
+                        src="profile.jpg" alt="" 
+                    />
+                    <h4>ប៊ុន ថន</h4>
+                </div>
+                <!-- story ends -->
+
+                <!-- story starts -->
+                <div style="background-image:url(sok_story1.jpg) ;" class="story">
+                    <img
+                        class="user_avatar story_avatar" 
+                        src="sok_pic.jpg" alt="" 
+                    />
+                    <h4>សុខ ហឿន</h4>
+                </div>
+                <!-- story ends -->
+
+                <!-- story starts -->
+                <div style="background-image:url(cena_story.jpg) ;" class="story">
+                    <img
+                        class="user_avatar story_avatar" 
+                        src="cena_pic.jpg" alt="" 
+                    />
+                    <h4>John Cena</h4>
+                </div>
+                <!-- story ends -->
+
+                <!-- story starts -->
+                <div style="background-image:url(virakset_story.jpg) ;" class="story">
+                    <img
+                        class="user_avatar story_avatar" 
+                        src="virakset_pic.jpg" alt="" 
+                    />
+                    <h4>វិ រះសិទ្ធ</h4>
+                </div>
+                <!-- story ends -->
+
+                <!-- story starts -->
+                <div style="background-image:url(McGregor_story.jpg) ;" class="story">
+                    <img
+                        class="user_avatar story_avatar" 
+                        src="McGregor_pic.jpg" alt="" 
+                    />
+                    <h4>Mc Gregor</h4>
+                </div>
+                <!-- story ends -->
+            </div>
+
+            <!-- message Sender starts -->
+            <div class="messageSender">
+                <div class="messageSender_top">
+                    <img
+                        class="user_avatar" 
+                        src="profile.jpg" alt="" 
+                    />
+                    <form action="">
+                        <input type="text" name="" id="" class="messageSender_input" placeholder="What's on your mind?">
+                    </form>
+                </div>
+                <div class="messageSender_bottom">
+                    <div class="messageSender_option">
+                        <span style="color: red;" class="material-symbols-outlined">videocam</span>
+                        <h3>Live</h3>
+                    </div>
+
+                    <div class="messageSender_option">
+                        <span style="color: green;" class="material-symbols-outlined">photo_library</span>
+                        <h3>Photo</h3>
+                    </div>
+
+                    <div class="messageSender_option">
+                        <span style="color: orange;" class="material-symbols-outlined">insert_emoticon</span>
+                        <h3>Feeling</h3>
+                    </div>
+                </div>
+            </div>
+            <!-- message Sender ends -->
+
+            <!-- post starts -->
+                <div class="post">
+                    <div class="post_top">
+                        <img
+                            class="user_avatar post_avatar" 
+                            src="profile.jpg" alt="" 
+                        />
+                        <div class="post_topInfo">
+                            <h3>ធឿន ប៊ុនថន</h3>
+                            <p>២៤ ឧសភា ២០២២​ នៅម៉ោង ១២ ០០នាទី</p>
+                        </div>
+                    </div>
+
+                    <div class="post_bottom">
+                        <p> This is My Webpage . &#128151 &#128151 </p>
+                        <p>Created on Wednesday 25 May 2022.</p>
+                    </div>
+
+                    <div class="post_image">
+                        <img 
+                            src="my_webpage.jpg" alt=""
+                        />
+                    </div>
+
+                    <div class="post_options">
+                        <div class="post_option">
+                            <div class="post_option">
+                                <span class="material-symbols-outlined">thumb_up</span>
+                                <p>Like</p>
+                            </div>
+                        </div>
+        
+                        <div class="post_option">
+                            <div class="post_option">
+                                <span class="material-symbols-outlined">chat_bubble_outline</span>
+                                <p>Comment</p>
+                            </div>
+                        </div>
+        
+                        <div class="post_option">
+                            <div class="post_option">
+                                <span class="material-symbols-outlined">near_me</span>
+                                <p>Share</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="post">
+                    <div class="post_top">
+                        <img
+                            class="user_avatar post_avatar" 
+                            src="profile.jpg" alt="" 
+                        />
+                        <div class="post_topInfo">
+                            <h3>ធឿន ប៊ុនថន</h3>
+                            <p>២៤ ឧសភា ២០២២​ នៅម៉ោង ១២ ០០នាទី</p>
+                        </div>
+                    </div>
+
+                    <div class="post_bottom">
+                        <p> The photo of my Code. I use only HTML and CSS. &#128516 </p>
+                    </div>
+
+                    <div class="post_image">
+                        <img 
+                            src="my_code.jpg" alt=""
+                        />
+                    </div>
+
+                    <div class="post_options">
+                        <div class="post_option">
+                            <div class="post_option">
+                                <span class="material-symbols-outlined">thumb_up</span>
+                                <p>Like</p>
+                            </div>
+                        </div>
+        
+                        <div class="post_option">
+                            <div class="post_option">
+                                <span class="material-symbols-outlined">chat_bubble_outline</span>
+                                <p>Comment</p>
+                            </div>
+                        </div>
+        
+                        <div class="post_option">
+                            <div class="post_option">
+                                <span class="material-symbols-outlined">near_me</span>
+                                <p>Share</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="post">
+                    <div class="post_top">
+                        <img
+                            class="user_avatar post_avatar" 
+                            src="profile.jpg" alt="" 
+                        />
+                        <div class="post_topInfo">
+                            <h3>ធឿន ប៊ុនថន</h3>
+                            <p>២៤ ឧសភា ២០២២​ នៅម៉ោង ១២ ០០នាទី</p>
+                        </div>
+                    </div>
+
+                    <div class="post_bottom">
+                        <p> I just started width Hello_World.  </p>
+                    </div>
+
+                    <div class="post_image">
+                        <img 
+                            src="hello_world.jpg" alt=""
+                        />
+                    </div>
+
+                    <div class="post_options">
+                        <div class="post_option">
+                            <div class="post_option">
+                                <span class="material-symbols-outlined">thumb_up</span>
+                                <p>Like</p>
+                            </div>
+                        </div>
+        
+                        <div class="post_option">
+                            <div class="post_option">
+                                <span class="material-symbols-outlined">chat_bubble_outline</span>
+                                <p>Comment</p>
+                            </div>
+                        </div>
+        
+                        <div class="post_option">
+                            <div class="post_option">
+                                <span class="material-symbols-outlined">near_me</span>
+                                <p>Share</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="post">
+                    <div class="post_top">
+                        <img
+                            class="user_avatar post_avatar" 
+                            src="profile.jpg" alt="" 
+                        />
+                        <div class="post_topInfo">
+                            <h3>ធឿន ប៊ុនថន</h3>
+                            <p>២៤ ឧសភា ២០២២​ នៅម៉ោង ១២ ០០នាទី</p>
+                        </div>
+                    </div>
+
+                    <div class="post_bottom">
+                        <p> My first day at school after Covid-19.</p>
+                    </div>
+
+                    <div class="post_image">
+                        <img 
+                            src="story_pic.jpg" alt=""
+                        />
+                    </div>
+
+                    <div class="post_options">
+                        <div class="post_option">
+                            <div class="post_option">
+                                <span class="material-symbols-outlined">thumb_up</span>
+                                <p>Like</p>
+                            </div>
+                        </div>
+        
+                        <div class="post_option">
+                            <div class="post_option">
+                                <span class="material-symbols-outlined">chat_bubble_outline</span>
+                                <p>Comment</p>
+                            </div>
+                        </div>
+        
+                        <div class="post_option">
+                            <div class="post_option">
+                                <span class="material-symbols-outlined">near_me</span>
+                                <p>Share</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="post">
+                    <div class="post_top">
+                        <img
+                            class="user_avatar post_avatar" 
+                            src="profile.jpg" alt="" 
+                        />
+                        <div class="post_topInfo">
+                            <h3>ធឿន ប៊ុនថន</h3>
+                            <p>២៤ ឧសភា ២០២២​ នៅម៉ោង ១២ ០០នាទី</p>
+                        </div>
+                    </div>
+
+                    <div class="post_bottom">
+                        <p> This is my Laptop and My Phone. &#128151 &#128151 </p>
+                    </div>
+
+                    <div class="post_image">
+                        <img 
+                            src="download.jpg" alt=""
+                        />
+                    </div>
+
+                    <div class="post_options">
+                        <div class="post_option">
+                            <div class="post_option">
+                                <span class="material-symbols-outlined">thumb_up</span>
+                                <p>Like</p>
+                            </div>
+                        </div>
+        
+                        <div class="post_option">
+                            <div class="post_option">
+                                <span class="material-symbols-outlined">chat_bubble_outline</span>
+                                <p>Comment</p>
+                            </div>
+                        </div>
+        
+                        <div class="post_option">
+                            <div class="post_option">
+                                <span class="material-symbols-outlined">near_me</span>
+                                <p>Share</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="post">
+                    <div class="post_top">
+                        <img
+                            class="user_avatar post_avatar" 
+                            src="profile.jpg" alt="" 
+                        />
+                        <div class="post_topInfo">
+                            <h3>ធឿន ប៊ុនថន</h3>
+                            <p>២៤ ឧសភា ២០២២​ នៅម៉ោង ១២ ០០នាទី</p>
+                        </div>
+                    </div>
+
+                    <div class="post_bottom">
+                        <p> Spend your time with monitor :). &#128151 &#128151 </p>
+                    </div>
+
+                    <div class="post_image">
+                        <img 
+                            src="2pc.jpg" alt=""
+                        />
+                    </div>
+
+                    <div class="post_options">
+                        <div class="post_option">
+                            <div class="post_option">
+                                <span class="material-symbols-outlined">thumb_up</span>
+                                <p>Like</p>
+                            </div>
+                        </div>
+        
+                        <div class="post_option">
+                            <div class="post_option">
+                                <span class="material-symbols-outlined">chat_bubble_outline</span>
+                                <p>Comment</p>
+                            </div>
+                        </div>
+        
+                        <div class="post_option">
+                            <div class="post_option">
+                                <span class="material-symbols-outlined">near_me</span>
+                                <p>Share</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <!-- post ends -->
+        </div>
+        <!-- feed ends -->
+
+        <!-- here is header file of addvertise -->
+        <div style="flex: 0.33" class="widgests">
+            <div 
+            class="fb-page" 
+            data-href="https://www.facebook.com/facebook" 
+            data-tabs="timeline" 
+            data-width="500" 
+            data-height="1000" 
+            data-small-header="false" 
+            data-adapt-container-width="true" 
+            data-hide-cover="false" 
+            data-show-facepile="true"
+            >
+                <blockquote cite="https://www.facebook.com/facebook" class="fb-xfbml-parse-ignore">
+                    <a href="https://www.facebook.com/facebook">Meta</a>
+                </blockquote>
+            </div>
+        </div>
+    </div>
+    <!-- main body end -->
+    <!-- here is advertise -->
+    <div id="fb-root"></div>
+        <script 
+            async 
+            defer 
+            crossorigin="anonymous" 
+            src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v13.0" 
+            nonce="I2VZX3MC"
+        ></script>
+</body>
+</html>
